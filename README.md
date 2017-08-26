@@ -1,24 +1,21 @@
-# README
+# Dummy Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails　application is demo for [rails-dashboard](https://github.com/y-takey/rails-dashboard).
 
-Things you may want to cover:
 
-* Ruby version
+## Setup
 
-* System dependencies
+```
+$ git clone https://github.com/y-takey/dmy-rails
+$ cd dmy-rails
+$ bundle install
+$ bin/rails db:migrate
+```
 
-* Configuration
+## Run
 
-* Database creation
+```
+$ npx rails-dashboard bin/rails s
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+then go to `http://localhost:3000`
